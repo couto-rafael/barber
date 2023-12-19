@@ -1,0 +1,41 @@
+//* Para "zerar" a página e começar do 0
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+//* Essa funcionalidade importa o outro arquivo saas com as variáveis das cores.
+@import "partials/color";
+@import "partials/header";
+@import "partials/layout";
+
+//* Para "zerar" a página e começar do 0
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  background-color: $primary-normal;
+}
+
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+}
+
+//* Super importante para as imagens sempre utilizarem o máximo de largura permitido que eu deixar
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
